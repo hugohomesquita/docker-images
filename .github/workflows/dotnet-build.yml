@@ -26,4 +26,4 @@ jobs:
           context: ./dotnet
           file: ./dotnet/NetSdk8Node20/Dockerfile
           push: true
-          tags: hugohomesquita/dotnet-sdk8-node20:latest
+          tags: hugohomesquita/dotnet/sdk8-node20:latest
