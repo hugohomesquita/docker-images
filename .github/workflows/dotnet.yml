@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'dotnet/**'
+      - 'dotnet/NetSdk8Node20/**'
 
 jobs:
   build-and-push:
