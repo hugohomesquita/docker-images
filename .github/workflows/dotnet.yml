@@ -1,11 +1,9 @@
-﻿name: Dotnet Build and Push
+﻿name: Dotnet
 
 on:
   push:
     branches:
       - main
-    paths:
-      - 'dotnet/NetSdk8Node20/**'
 
 jobs:
   build-and-push:
