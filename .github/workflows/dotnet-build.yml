@@ -24,6 +24,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./dotnet
-          file: ./dotnet/NetSdk8Node20Dockerfile
+          file: ./dotnet/NetSdk8Node20/Dockerfile
           push: true
           tags: hugohomesquita/sdk8-node20:latest
